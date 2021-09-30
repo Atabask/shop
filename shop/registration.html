@@ -1,0 +1,116 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Registration</title>
+    <script src="https://kit.fontawesome.com/30f4d61c85.js" crossorigin="anonymous"></script>
+    <link rel="stylesheet" href="css/style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Lato:ital,wght@0,300;0,400;0,700;1,400&display=swap"
+        rel="stylesheet">
+</head>
+
+<body>
+    <header class="header">
+        <div class="wrap">
+            <div class="header_wrap">
+                <div>
+                    <a href="index.html" class="logo_link"><img class="logo_link_img" src="img/icon/logo.svg" width="44" height="38" alt="logo"></a>
+                    <a href="#"><img class="search_img" src="img/icon/search.svg" width="27" height="28" alt="search"></a>
+                </div>
+                <div>
+                    <button ><img class="menu_img" src="img/icon/menu.svg" width="32" height="23" alt="menu"></button>
+                    <a href="registration.html" class="user_link"><img class="user_img" src="img/icon/user.svg" width="29" height="29" alt="user"></a>
+                    <a href="product.html" class="basket_link"><img class="basket_img" src="img/icon/basket.svg" width="32" height="29" alt="basket"></a>
+                </div>
+            </div>
+        </div>
+    </header>
+    <section class="title_card">
+        <div class="wrap wrap_title_card">
+            <h1 class="title_catalog_pink title_catalog_pink_card">REGISTRATION</h1>
+        </div>
+    </section>
+    <section class="form-registration">
+        <form class="wrap wrap-form-registration">
+            <div class="wrap-form-registration-container">
+                <div class="wrap-form-registration-container-name">
+                    <h2 class="wrap-form-registration-container-name-header">Your Name</h2>
+                    <input type="text" placeholder="First Name" class="wrap-form-registration-container-name-first-name">
+                    <input type="text" placeholder="Last Name" class="wrap-form-registration-container-name-last-name">
+                </div>
+                <input class="wrap-form-registration-container-radio-btn" type="radio" name="gender" value="male" id="Male"><label for="Male">Male</label>
+                <input class="wrap-form-registration-container-radio-btn-female" type="radio" name="gender" value="female" id="Female"><label for="Female">Female</label>
+                <input class="wrap-form-registration-container-radio-btn-other" type="radio" name="gender" value="Other" id="Other"><label for="Other">Other</label>
+                <div class="wrap-form-registration-container-login-details">
+                    <h2 class="wrap-form-registration-container-login-details-header">Login details</h2>
+                    <input class="wrap-form-registration-container-login-details-email" type="email" placeholder="Email" name="email" id="email">
+                    <input class="wrap-form-registration-container-login-details-pass" type="password" placeholder="Password" name="password" id="password">
+                </div>
+                <p class="wrap-form-registration-container-text">Please use 8 or more characters, with at least 1 number and a mixture of uppercase and lowercase letters</p>
+                <button type="submit" class="wrap-form-registration-container-btn-join">JOIN NOW <svg width="17" height="10" viewBox="0 0 17 10" fill="none" xmlns="http://www.w3.org/2000/svg">
+                    <path fill-rule="evenodd" clip-rule="evenodd" d="M11.54 0.208095C11.6058 0.142131 11.684 0.0897967 11.77 0.0540883C11.8561 0.01838 11.9483 0 12.0415 0C12.1347 0 12.2269 0.01838 12.313 0.0540883C12.399 0.0897967 12.4772 0.142131 12.543 0.208095L16.7929 4.458C16.8589 4.5238 16.9112 4.60196 16.9469 4.68802C16.9826 4.77407 17.001 4.86632 17.001 4.95949C17.001 5.05266 16.9826 5.14491 16.9469 5.23097C16.9112 5.31702 16.8589 5.39518 16.7929 5.46098L12.543 9.71089C12.41 9.84389 12.2296 9.91861 12.0415 9.91861C11.8534 9.91861 11.673 9.84389 11.54 9.71089C11.407 9.57788 11.3323 9.39749 11.3323 9.2094C11.3323 9.0213 11.407 8.84091 11.54 8.70791L15.2898 4.95949L11.54 1.21107C11.474 1.14528 11.4217 1.06711 11.386 0.981059C11.3503 0.895005 11.3319 0.802752 11.3319 0.709584C11.3319 0.616415 11.3503 0.524162 11.386 0.438109C11.4217 0.352055 11.474 0.273891 11.54 0.208095Z" fill="white"/>
+                    <path fill-rule="evenodd" clip-rule="evenodd" d="M0 4.95948C0 4.77162 0.0746263 4.59146 0.207462 4.45862C0.340297 4.32579 0.52046 4.25116 0.708318 4.25116H15.583C15.7708 4.25116 15.951 4.32579 16.0838 4.45862C16.2167 4.59146 16.2913 4.77162 16.2913 4.95948C16.2913 5.14734 16.2167 5.3275 16.0838 5.46033C15.951 5.59317 15.7708 5.6678 15.583 5.6678H0.708318C0.52046 5.6678 0.340297 5.59317 0.207462 5.46033C0.0746263 5.3275 0 5.14734 0 4.95948Z" fill="white"/>
+                    </svg>
+                    
+                    </button>
+            </div>
+            <div class="wrap-form-registration-container-loyalty">
+                <h2 class="wrap-form-registration-container-loyalty-text-header"> LOYALTY HAS ITS PERKS</h2>
+                <p class="wrap-form-registration-container-loyalty-text-loyalty">Get in on the loyalty program where you can earn points and unlock serious perks. Starting with these as soon as you join:</p>
+                <ul class="wrap-form-registration-container-loyalty-ul">
+                    <li class="wrap-form-registration-container-loyalty-ul-list"><img class="wrap-form-registration-container-loyalty-text-header-check" src="img/icon/check.svg" alt="check">15% off welcome offer
+                    </li>
+                    <li class="wrap-form-registration-container-loyalty-ul-list"><img class="wrap-form-registration-container-loyalty-text-header-check" src="img/icon/check.svg" alt="check">Free shipping, returns and exchanges on all orders
+
+                    </li>
+                    <li class="wrap-form-registration-container-loyalty-ul-list"><img class="wrap-form-registration-container-loyalty-text-header-check" src="img/icon/check.svg" alt="check">$10 off a purchase on your birthday
+
+                    </li>
+                    <li class="wrap-form-registration-container-loyalty-ul-list"><img class="wrap-form-registration-container-loyalty-text-header-check" src="img/icon/check.svg" alt="check">Early access to products</li>
+                    <li class="wrap-form-registration-container-loyalty-ul-list"><img class="wrap-form-registration-container-loyalty-text-header-check" src="img/icon/check.svg" alt="check">Exclusive offers & rewards</li>
+                </ul>
+            </div>
+        </form>
+    </section>
+    <section class="feedback">
+        <div class="wrap wrap_feedback">
+            <div class="container_feedback">
+                <div class="quote_women">
+                    <img src="img/main/quote_women.png" alt="quote_women">
+                    <p class="quote">“Vestibulum quis porttitor dui! Quisque viverra nunc mi, <span class="italic_qoute">a pulvinar purus
+                        condimentum</span> “</p>
+                </div>
+                <div class="form_subscribe">
+                    <h3 class="header_subscribe"><span class="subscribe_bold">SUBSCRIBE</span><br> FOR OUR NEWLETTER AND PROMOTION</h3>
+                    <form action="#" class="subscribe">
+                    <input type="email" name="email" id="1" placeholder="Enter Your Email" class="email_subscribe">
+                    <input type="submit" class="subscribe_btn" value="Subscribe" >
+                    </form>
+                </div>
+            </div>
+        </div>
+    </section>
+    <footer class="footer">
+        <div class="wrap wrap_footer">
+            <div>
+               <p class="copy_footer">© 2021 Brand All Rights Reserved.</p> 
+            </div>
+            <div class="social_networks">
+                <a href="https://www.facebook.com/" class="social_link"><i class="fab fa-facebook-f"></i></a>
+                <a href="https://www.instagram.com/" class="social_link"><i class="fab fa-instagram"></i></a>
+                <a href="https://www.pinterest.ru/" class="social_link"><i class="fab fa-pinterest-p"></i></a>
+                <a href="https://twitter.com/" class="social_link"><i class="fab fa-twitter"></i></a>
+            </div>
+        </div>
+    </footer>
+</body>
+
+</html>
+
+
+
